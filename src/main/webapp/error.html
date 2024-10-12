@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f44336; /* Red background for error */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            color: white; /* White text color */
+        }
+        h1 {
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        p {
+            margin-bottom: 30px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #ffffff; /* White background for button */
+            color: #f44336; /* Red text color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease-in-out;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .btn:hover {
+            background-color: #e0e0e0; /* Light grey on hover */
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Error!</h1>
+<p>There was an issue with the server or the password is incorrect. Please try again.</p>
+
+<button class="btn" onclick="location.href='/login'">Back to Login</button>
+
+</body>
+</html>

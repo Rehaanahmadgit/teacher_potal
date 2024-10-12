@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Successful</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1 {
+            color: #00838f;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        p {
+            color: #333;
+            margin-bottom: 30px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #00838f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease-in-out;
+            animation: fadeIn 1s ease-in-out;
+            margin: 5px; /* Added margin for spacing between buttons */
+        }
+        .btn:hover {
+            background-color: #006064;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Submission Successful!</h1>
+<p>The marks have been successfully submitted.</p>
+
+<button class="btn" onclick="location.href='./teacher.html'">Submit Next Student's Marks</button>
+<button class="btn" onclick="location.href='./'">Logout</button>
+
+</body>
+</html>

@@ -160,7 +160,7 @@
         }
     %>
 
-    <button class="btn" onclick="location.href='./index.jsp'">Logout</button>
+    <button class="btn" onclick="location.href='./index.html'">Logout</button>
 </div>
 
 </body>
